@@ -23,6 +23,5 @@ public class PowerOf2 {
 				System.out.println(year+" : This is not a leap year");
 			}
 		}
-		 
 	}
 }
