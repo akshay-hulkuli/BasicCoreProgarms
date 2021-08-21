@@ -3,7 +3,11 @@ package com.bridgelabz.coreprograms;
 public class Factors {
 	public static void main(String[] args) {
 		int number = 200;
-		if(number <=1 ) return;
+		if(number <=1 )
+		{
+			System.err.println("please enter positive integer");
+			return;
+		}
 		
 		for(int i=2; i*i<= number; i++)
 		{
