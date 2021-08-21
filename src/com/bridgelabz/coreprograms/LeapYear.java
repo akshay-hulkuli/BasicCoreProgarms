@@ -8,13 +8,16 @@ public class LeapYear {
 		{
 			System.err.println("Please ensure that year is a 4 digit number");
 		}
-		if((year%4 == 0 && year%100 != 0) || year % 400 == 0)
+		else 
 		{
-			System.out.println(year +" : This is a leap year");
-		}
-		else
-		{
-			System.out.println(year+" : This is not a leap year");
+			if((year%4 == 0 && year%100 != 0) || year % 400 == 0)
+			{
+				System.out.println(year +" : This is a leap year");
+			}
+			else
+			{
+				System.out.println(year+" : This is not a leap year");
+			}
 		}
 
 	}
