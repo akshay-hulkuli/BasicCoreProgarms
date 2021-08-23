@@ -18,7 +18,7 @@ public class HeadAndTailPercentage {
 					headsCount++;
 				}
 			}
-		}
+		} 
 		 int headsPercentage = (headsCount*100)/numberOfFlips;
 		 int tailsPercentage = 100-headsPercentage;
 		 System.out.println("Heads Percentage : "+ headsPercentage);
