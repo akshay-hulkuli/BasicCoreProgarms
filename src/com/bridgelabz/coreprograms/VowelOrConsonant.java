@@ -4,7 +4,6 @@ public class VowelOrConsonant {
 
 	public static void main(String[] args) {
 		char alphabet = 'd';
-		
 		// if alphabet is lowercase then convert it into uppercase
 		
 		if(alphabet >= 'a' && alphabet <= 'z') 
