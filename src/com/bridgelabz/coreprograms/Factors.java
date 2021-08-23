@@ -8,7 +8,6 @@ public class Factors {
 			System.err.println("please enter positive integer");
 			return;
 		}
-		
 		for(int i=2; i*i<= number; i++)
 		{
 			while(number % i == 0) 
