@@ -21,7 +21,7 @@ public class LargestOfThree {
 			}
 		}
 		else
-		{
+		{ 
 			if(number2 > number3)
 			{
 				System.out.println("number2 is the largest");
