@@ -1,7 +1,6 @@
 package com.bridgelabz.coreprograms;
 
 public class HarmonicNumber {
-
 	public static void main(String[] args) {
 		int lengthOfSeries = 5;
 		double nthHarmonicValue = 0.0;
