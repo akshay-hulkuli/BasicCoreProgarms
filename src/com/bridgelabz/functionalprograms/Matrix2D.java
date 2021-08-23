@@ -7,7 +7,7 @@ public class Matrix2D {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		PrintWriter writer = new PrintWriter(System.out);
+		
 		System.out.println("Select 1:Integer matrix 2:Double matrix 3:Boolean matrix ");
 		int option = sc.nextInt();
 		System.out.println("Enter number of rows and columns");
@@ -24,7 +24,7 @@ public class Matrix2D {
 				}
 				System.out.println("array elements are");
 				for(int i=0; i< m;i++) {
-					for(int j =0; j< n;j++) {
+					for(intwriter.write("the array elements are"); j =0; j< n;j++) {
 						System.out.print(array1[i][j]+" ");
 					}
 					System.out.println();
