@@ -7,7 +7,6 @@ public class Matrix2D {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
 		System.out.println("Select 1:Integer matrix 2:Double matrix 3:Boolean matrix ");
 		int option = sc.nextInt();
 		System.out.println("Enter number of rows and columns");
