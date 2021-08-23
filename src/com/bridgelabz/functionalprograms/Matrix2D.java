@@ -23,7 +23,7 @@ public class Matrix2D {
 				}
 				System.out.println("array elements are");
 				for(int i=0; i< m;i++) {
-					for(intwriter.write("the array elements are"); j =0; j< n;j++) {
+					for(int j =0; j< n;j++) {
 						System.out.print(array1[i][j]+" ");
 					}
 					System.out.println();
@@ -60,7 +60,6 @@ public class Matrix2D {
 					}
 					System.out.println();
 				}
-				
 		}
 
 	}
