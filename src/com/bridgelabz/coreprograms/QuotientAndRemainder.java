@@ -9,5 +9,5 @@ public class QuotientAndRemainder {
 		quotient = divident / divisor;
 		System.out.println("Quotient : "+ quotient);
 		System.out.println("Remainder : "+remainder);	
-	}
+	}	
 }
