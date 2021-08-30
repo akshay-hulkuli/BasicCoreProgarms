@@ -11,7 +11,6 @@ public class VowelOrConsonant {
 			alphabet -= ('a'-'A');
 		}
 		
-		
 		if(alphabet == 'A' || alphabet == 'E' || alphabet == 'I' || alphabet == 'O' || alphabet == 'U') 
 		{
 			System.out.println(" given alphabet is VOWEL");
